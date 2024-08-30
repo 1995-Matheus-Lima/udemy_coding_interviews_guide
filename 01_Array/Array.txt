@@ -1,0 +1,29 @@
+What is an array? 
+	for example, when we have write:
+		int a; 
+			we will get for bytes of memory space.
+	but when we write:
+		int a[16]
+			we will get 16 box of for vytes of memory space
+
+int a[n]
+	start in 0
+	end n-1
+	all elementes should be of int type here
+char a[10]
+	all elementes should be of char type here
+
+when we initialize a array, the rest of the position become zero
+	a[10] = {1,2,3,4}
+	a[10] is  [1,2,3,4,0,0,0,0,0,0]
+
+when we dont initialize a any value of the array, the array will be complete with garbage value;
+	a[10]
+	a[10] is [12131,579876,765445678,765434,7876543,456789765,456787654,5676543,43,456]
+
+when we use sizeof(d), here d is an array d[10],  we got the number of bytes
+
+Segmentault Fault
+	we can't creat an array bigger then 10⁵ 
+
+
