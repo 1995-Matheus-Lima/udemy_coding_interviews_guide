@@ -1,0 +1,25 @@
+Char is a array of characteres that ends with the especial character "\0"
+
+in c++ this character is put automatic after the last character that we put.
+
+eg: char b[10]
+
+//put my nam insede b
+cin >> Matheus  
+
+//index  b [1,2,3,4,5,6,7,8,9,10]
+         b [M,a,t,h,e,u,s,\0, , ]
+
+the print will stop when see the character \0, eventhough we had a value that we force after this character!
+
+	 
+eg:
+//index  b [1,2,3,4,5,6,7,8,9,10]
+         b [M,a,t,h,e,u,s,\0, ,D ]
+
+cout << b << endl;
+
+// will be printed only
+Matheus
+
+
