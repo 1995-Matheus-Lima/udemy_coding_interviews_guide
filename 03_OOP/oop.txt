@@ -1,0 +1,6 @@
+Programation oriented to objects
+
+template -> copy -> create object
+
+Class -> Object
+
