@@ -17,7 +17,7 @@ void selectionSort(int a[], int n){
 
 	}*/
 
-	for(int i=0; i<n-1; i++){
+	for(int i=0; i<n-2; i++){
 		int smallest = i;
 		for(int j = i+1; j <= n ; j++ ){
 			if(a[j] < a[smallest]){
@@ -40,11 +40,10 @@ int main(){
 	}
 	
 	selectionSort(a,n);
-
 	for(int i=0; i<n ;i++){
-		cout << a[i] << " ";
+	cout << a[i] << " ";
 	}	
-	cout << endl;
+	
 	
 	return 0;
 }
